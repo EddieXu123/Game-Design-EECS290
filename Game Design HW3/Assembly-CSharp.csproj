@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{60c97865-2297-7c86-6a78-1019a1791d5a}</ProjectGuid>
+    <ProjectGuid>{2a688f1c-14fa-11f2-69d0-7a95ecca3895}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -574,31 +574,31 @@
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.21f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-        <HintPath>/Users/eddiexu/Desktop/Programming Languages/C#-Unity/Game Design HW2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+        <HintPath>/Users/eddiexu/Desktop/Programming Languages/Game-Design-EECS290/Game Design HW3/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
