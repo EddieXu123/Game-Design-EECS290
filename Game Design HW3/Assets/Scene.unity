@@ -1528,6 +1528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   reticle: {fileID: 0}
+  ammo: {fileID: 16610492936174900, guid: 64894925a3775d04db263e8073e04557, type: 3}
 --- !u!1 &1096281430
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,6 +6,7 @@ using UnityEngine.UI; /* Required for controlling Canvas UI system */
 public class RayShooter : MonoBehaviour {
 	private Camera _camera;
 	[SerializeField] private GameObject reticle;
+	[SerializeField] private GameObject ammo;
 
 	void Start() {
 		_camera = GetComponent<Camera>();
@@ -50,12 +51,16 @@ public class RayShooter : MonoBehaviour {
 		}
 	}
 
+// Player's gun (bullet)
 	private IEnumerator SphereIndicator(Vector3 pos) {
-		GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+		GameObject sphere = Instantiate(ammo) as GameObject;
+		// GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
 		sphere.transform.position = pos;
 
-		yield return new WaitForSeconds(1);
+		yield return new WaitForSeconds(3);
 
 		Destroy(sphere);
 	}
 }
+
+// Player's rotation
