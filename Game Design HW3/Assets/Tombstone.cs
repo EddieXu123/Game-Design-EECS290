@@ -20,10 +20,12 @@ public class Tombstone : MonoBehaviour {
 	{
 		GameObject tomb = Instantiate(tombstone_01Prefab) as GameObject;
 		tomb.transform.position = this.transform.position;
+		// tomb.transform.position = new Vector3(this.transform.position.x, 1, this.transform.position.z);
+
 
 		while(true)
 		{
-			tomb.transform.Rotate(2, 0, 0);
+			tomb.transform.Rotate(0, 0, 4);
 			yield return null;
 		}
 	}
