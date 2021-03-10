@@ -19,8 +19,8 @@ public class Tombstone : MonoBehaviour {
 	private IEnumerator RotateRoutine()
 	{
 		GameObject tomb = Instantiate(tombstone_01Prefab) as GameObject;
-		tomb.transform.position = this.transform.position;
-		// tomb.transform.position = new Vector3(this.transform.position.x, 1, this.transform.position.z);
+		//tomb.transform.position = this.transform.position;
+		tomb.transform.position = new Vector3(this.transform.position.x, 1, this.transform.position.z);
 
 
 		while(true)
