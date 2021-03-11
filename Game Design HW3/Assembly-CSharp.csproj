@@ -45,7 +45,8 @@
      <Compile Include="Assets\SceneController.cs" />
      <Compile Include="Assets\Tombstone.cs" />
      <Compile Include="Assets\WanderingAI.cs" />
-     <None Include="Assets\AddOns\Mg3D_Food\README.txt" />
+     <None Include="Assets\AurynSky\Rockets Missiles and Bombs\READ ME.txt" />
+     <None Include="Assets\JKT_ART\etc\MatCap.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2019.4.21f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

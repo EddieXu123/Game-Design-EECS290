@@ -26,7 +26,7 @@ public class WanderingAI : MonoBehaviour {
 					if (_fireball == null) {
 						_fireball = Instantiate(fireballPrefab) as GameObject;
 						_fireball.transform.position = transform.TransformPoint(Vector3.forward * 1.5f);
-						_fireball.transform.Translate(Vector3.up);
+						_fireball.transform.Translate(Vector3.up * 2); // Moves the fireball
 						_fireball.transform.rotation = transform.rotation;
 						
 					}
