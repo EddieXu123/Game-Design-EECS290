@@ -16,7 +16,7 @@ public class RayShooter : MonoBehaviour {
 
 
 		reticle = GameObject.Find("Reticle");
-		reticle.GetComponent<Text>().text = "-*-";
+		reticle.GetComponent<Text>().text = "_*_";
 		reticle.GetComponent<Text>().alignment = TextAnchor.MiddleCenter;
 		reticle.GetComponent<RectTransform>().position =
             new Vector3(_camera.pixelWidth / 2.0f - reticle.GetComponent<Text>().fontSize / 4.0f,
@@ -45,6 +45,7 @@ public class RayShooter : MonoBehaviour {
 				ReactiveTarget target = hitObject.GetComponent<ReactiveTarget>();
 				if (target != null) {
 					target.ReactToHit();
+					StartCoroutine(SphereIndicatorHit(hit.point));
 				} else {
 					StartCoroutine(SphereIndicator(hit.point));
 				}
@@ -59,7 +60,18 @@ public class RayShooter : MonoBehaviour {
 		sphere.transform.position = new Vector3(pos.x, pos.y, pos.z);
 		//sphere.transform.Translate(Vector3.forward);
 
-		yield return new WaitForSeconds(3);
+		yield return new WaitForSeconds(2);
+
+		Destroy(sphere);
+	}
+
+		private IEnumerator SphereIndicatorHit(Vector3 pos) {
+		GameObject sphere = Instantiate(ammo) as GameObject;
+		// GameObject sphere = GameObject.CreatePrimitive(PrimitiveType.Sphere);
+		sphere.transform.position = new Vector3(pos.x, pos.y, pos.z);
+		//sphere.transform.Translate(Vector3.forward);
+
+		yield return new WaitForSeconds(0.2f);
 
 		Destroy(sphere);
 	}
